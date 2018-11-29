@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const HTTP = axios.create({
-    baseURL: 'http://rack_backend:9292/api/v1'
+    baseURL: 'http://rack_backend:3000/api/v1'
 })
 
 function postPlay() {
